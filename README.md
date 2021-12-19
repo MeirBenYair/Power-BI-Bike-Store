@@ -4,18 +4,12 @@
 I used 7 csv for the projec:
 
 * HaririAnalytics_Products.csv
-
 * HaririAnalytics_Returns.csv
-
 * HaririAnalytics_Territories.csv
-
-*HaririAnalytics_Product_Subcategories.csv
-
-*HaririAnalytics_Product_Categories.csv
-
-*HaririAnalytics_Customers.csv
-
-*HaririAnalytics_Calendar.csv
+* HaririAnalytics_Product_Subcategories.csv
+* HaririAnalytics_Product_Categories.csv
+* HaririAnalytics_Customers.csv
+* HaririAnalytics_Calendar.csv
 
 
 ### The First page: 
