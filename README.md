@@ -14,7 +14,7 @@ I used 7 csv for the projec:
 ### Step number two:
 At this stage i created the relationships between the DIM tables and the FACT tables (one-to-many relationship). And creation hierarchies in the various tables as needed. 
 #### The Star Schme model looks like this:
-![Star scaime](https://user-images.githubusercontent.com/93455805/141657535-2960adf2-a9ec-4c90-bcbe-7fc2ae8fdad2.JPG)
+![1](https://user-images.githubusercontent.com/93455805/146692226-af5e885e-06ed-4b08-95df-acba59fd6de7.JPG)
 ### Step number three:
 Is to build and design the reports in POWER BI.
 
