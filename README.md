@@ -46,8 +46,6 @@ The title automatically changes by country.
 
 #### Made by Meir Ben Yair.
 
-Student at INT College
-
 
 Mail and Phone Number : 
 ```
