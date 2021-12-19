@@ -11,59 +11,27 @@ I used 7 csv for the projec:
 *HaririAnalytics_Customers.csv
 *HaririAnalytics_Calendar.csv
 
-### Step number two:
-At this stage i created the relationships between the DIM tables and the FACT tables (one-to-many relationship). And creation hierarchies in the various tables as needed. 
-#### The Star Schme model looks like this:
-![1](https://user-images.githubusercontent.com/93455805/146692226-af5e885e-06ed-4b08-95df-acba59fd6de7.JPG)
-### Step number three:
-Is to build and design the reports in POWER BI.
 
-At the report building stage,I divided the report into three pages.
 ### The First page: 
 shows General data of the corona virus from around the world, or by specific countries. By cumulative date and daily date.
 The title automatically changes by country.
 
-![page1](https://user-images.githubusercontent.com/93455805/141700624-0e92b085-59dc-4e3c-b4ca-f0b8a3c5b88e.JPG)
+![1](https://user-images.githubusercontent.com/93455805/146692226-af5e885e-06ed-4b08-95df-acba59fd6de7.JPG)
 
-### The Second page:
-It shows a Corona data comparison of the last three weeks. And if there is an increase in Confirmed / Deaths. It marks the country in red.
+![2](https://user-images.githubusercontent.com/93455805/146692263-1a5a2da4-3e24-4c19-9431-c4a2657a5605.JPG)
 
-![page2](https://user-images.githubusercontent.com/93455805/141700620-39f3c0f3-a2fa-4c8d-848f-fc2931f57838.JPG)
+![3](https://user-images.githubusercontent.com/93455805/146692264-ce413070-c196-4702-b2b5-dfbc48c08b08.JPG)
 
 
-### The Third page:
-It shows the ten countries with the highest number of Confirmed / Deaths.
-
-![page3](https://user-images.githubusercontent.com/93455805/141700623-c2bb6882-169a-427a-9bb6-2df3e1f6513a.JPG)
-
-#### In the process of building the reports I used DAX  and MESURES, such as:
-SWITCH ,CALCULATE,Variables,RANKX,VALUES
-,DIVIDE,MAX,DATEADD,if,COUNTX,All,SUMX
+![4](https://user-images.githubusercontent.com/93455805/146692261-53dadc8a-0c9b-44ae-b4e0-f53e0eefb4a9.JPG)
 
 
 
-## SSIS ETL
-##### The SSIS project takes live data on covid 19,through Python script and loads the data into the Data Warehouse system.
-
-#### Steps in project execution
-
-### Extraction :
-The first step is: to Build three files in Python script, of Conformed,deaths and Recovered.And arrange the data and add a column named Status.
-
-![py](https://user-images.githubusercontent.com/93455805/141704618-b308be3b-e93c-4e14-a14f-3547548a38e8.JPG)
-
-### Transformation :
-To be sure that no double information was entered, I used a lookap component that passes only the new Corona information to the destination.
-
-### Loading:
-For this stage I built a new database. And three tables. And there I load the information from ssis. 
-![db](https://user-images.githubusercontent.com/93455805/141704619-9d01cd9c-0568-4f77-9f45-14245caf193c.JPG)
-![db1](https://user-images.githubusercontent.com/93455805/141704613-abfd296f-2b27-471b-8a93-0ff123d59680.JPG)
-
-### Schedule:
 
 
-![job (1)](https://user-images.githubusercontent.com/93455805/141704616-12272944-fc56-434a-bfb9-181d29af3047.JPG)
+
+
+
 
 ## Contact info
 
