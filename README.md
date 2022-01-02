@@ -31,7 +31,7 @@ And build relationships between them according to the Snowflake schema:
 ![1](https://user-images.githubusercontent.com/93455805/146692226-af5e885e-06ed-4b08-95df-acba59fd6de7.JPG)
 
 ### The second page:
-Shows a parameter that check what will happen if the price of a particular product  changes how much the profit will be.
+Shows parameter that check what will happen if the price of a particular product  changes how much the profit will be.
 
 
 ![2](https://user-images.githubusercontent.com/93455805/146692263-1a5a2da4-3e24-4c19-9431-c4a2657a5605.JPG)
